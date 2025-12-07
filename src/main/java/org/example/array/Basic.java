@@ -1,5 +1,6 @@
 package org.example.array;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Basic {
@@ -16,5 +17,8 @@ public class Basic {
         for (String name : studentList) {
             System.out.println(name);
         }
+        // we can also ini like this without mention length
+        int [] b = new int[]{1,2,4,5};
+        System.out.println(Arrays.toString(b));
     }
 }
